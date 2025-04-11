@@ -29,13 +29,13 @@ brew install vs-active-claude
 To remove the "...behalf..." string from all Copilot Chat extension.js files and create backups:
 
 ```
-./vs-active-claude apply
+vs-active-claude apply
 ```
 
 ### Restore from Backup
 To restore the original files from backups:
 ```
-./vs-active-claude restore
+vs-active-claude restore
 ```
 
 ## License
