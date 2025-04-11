@@ -22,5 +22,21 @@ brew tap az5app/tap
 brew install vs-active-claude
 ```
 
+## Usage
+
+### Apply Changes
+
+To remove the "...behalf..." string from all Copilot Chat extension.js files and create backups:
+
+```
+./vs-active-claude apply
+```
+
+### Restore from Backup
+To restore the original files from backups:
+```
+./vs-active-claude restore
+```
+
 ## License
 [Apache 2.0 License](LICENSE)
